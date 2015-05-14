@@ -1,0 +1,49 @@
+body {
+	margin: 0px;
+	color: #000000;
+}
+
+#div_middle {
+	float: left;
+	margin-top: 5%;
+	width: 90%;
+	margin-left: 5%;
+	font-family: Georgia, Serif;
+}
+
+#div_title {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+table {
+	margin-left: 10%;
+	border: none;
+	width: 80%;
+	margin-top: 5%;
+	font-style: italic;
+}
+
+th {
+	font-weight: 0;
+	font-size: 20px;
+}
+
+th {
+	background-color: green;
+	color: white;
+}
+
+td:nth-child(even) {
+	background-color: #a6ffb0;
+}
+
+#div_top {
+	
+}
+
+#div_bottom {
+	
+}

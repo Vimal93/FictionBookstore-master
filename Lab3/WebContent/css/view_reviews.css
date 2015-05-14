@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	background-color: #7cfca4;
+}
+
+#open{
+	float:left;
+}
+
+h1 {
+	clear: both;
+	width: 90%;
+	margin-left: 5%;
+	padding-top: 2%;
+	font-family: Georgia, Serif;
+}
+	label{
+		font-size: 25px;
+	}
+
+#casing{
+	width: 90%;
+	margin-left: 5%;
+}
+
+	#photo{
+		border: none;
+		float: left;
+		width: 30%;
+	}
+	img{
+		width: 90%;
+	}
+	
+	#review{
+		border: none;
+		float: right;
+		width: 70%;
+		font-family: Georgia, Serif;
+		font-size: 30px;
+		font-weight: bold;
+	}
+		#text{
+			border: none;
+			background-color: #fdfee6;
+			width: 98%;
+			font-family: Georgia, Serif;
+			margin: 1%;
+			padding: 2%;
+			font-style: italic;
+			font-weight: normal;
+			font-size: 20px;
+		}
+

@@ -1,0 +1,74 @@
+body{
+	margin: 0px;
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: 0% -30%;
+	color: #ffffff;
+}
+
+/* Page Division */
+
+#div_right{
+	padding-bottom:10%;
+	padding-top:10%;
+	float:right;
+	width: 50%;
+	font-family: Georgia, Serif;
+}
+
+#div_left{
+	position:absolute;
+	float:left;
+	width: 50%;
+	font-family: Georgia, Serif;
+}
+
+/* Fields */
+
+input{
+	float: center;
+	padding: 0px;
+	font-size: 15px;
+	font-weight: bold;
+	height: 50px;
+	margin: 0px;
+	color: #f2f7f2;
+}
+
+input[type=submit]{
+	border-width: 0px;
+	background: #ffa500;
+	font-color: #000000;
+	width: 80%;
+}
+
+input[type=text]{
+	color: black;
+	margin: 0px;
+	margin-bottom: 5px;
+	border-width:0px;
+	width: 80%;
+	text-align: center;
+}
+
+input[type=text]:hover{
+	background-color: #f6f6f6;
+}
+
+input[type=password]{
+	color: black;
+	margin: 0px;
+	margin-bottom: 5px;
+	border-width:0px;
+	width: 80%;
+	text-align: center;
+}
+
+input[type=password]:hover{
+	background-color: #f6f6f6;
+}
+
+input[type=submit]:hover{
+	background: #009700;
+}

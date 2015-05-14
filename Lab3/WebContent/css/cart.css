@@ -1,0 +1,173 @@
+body{
+	margin: 0;
+	font-family: Georgia, Serif;
+}
+
+#open{
+	float:left;
+	margin:2%;
+}
+
+table{
+	width: 100%;
+}
+
+th{
+	vertical-align: top;
+	text-align: left;
+	font-size: 25px;
+}
+
+td{
+	vertical-align: top;
+	text-align: left;
+}
+td:nth-child(1) {
+	width: 20%;
+}
+
+td:nth-child(2) {
+	width: 20%;
+}
+
+td:nth-child(3) {
+	width: 60%;
+}
+
+h1{
+	clear:both;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+div:nth-child(even)#alt_color {
+	width: 100%;
+	float:left;
+	background-color: #5cd35c;
+}
+
+div:nth-child(odd)#alt_color{
+	width: 100%;
+	float:left;
+	background-color: #bff0bf;
+}
+
+#cart_content{
+	padding: 1% 0% 1% 0%;
+	width: 90%;
+	margin-left: 5%;
+	
+}
+
+	#photo{
+		width: 20%;
+		float:left;
+		max-height: 96%;
+	}
+	
+		img{
+			width: 60%;
+			margin-bottom: 2%;
+		}
+	
+	#result{
+		width: 80%;
+		float:left;
+	}
+	
+	#result input[type=submit]{
+		float:right;
+		margin-top: 2%;
+		margin-right: 2%;
+		font-style: italic;
+		border: none;
+		padding: 9px;
+	    font: bold 15px/100% Verdana, Tahoma, sans-serif; 
+	    color: white;
+	    width: 30%; 
+	    background: #ff8900;
+	    font-family: Georgia, Serif;
+	}
+	#result input[type=text]{
+		float:right;
+		margin-top: 2%;
+		margin-right: 2%;
+		font-style: italic;
+		border: none;
+		padding: 9px;
+	    font: bold 15px/100% Verdana, Tahoma, sans-serif; 
+	    width: 30%; 
+	    font-family: Georgia, Serif;
+	}
+	
+	#result input[type=button]{
+		float:right;
+		margin-top: 2%;
+		margin-right: 2%;
+		font-style: italic;
+		border: none;
+		padding: 9px;
+	    font: bold 15px/100% Verdana, Tahoma, sans-serif; 
+	    color: white;
+	    width: 18%; 
+	    background: #ff8900;
+	    font-family: Georgia, Serif;
+	}
+	
+	button[type=submit]{
+		float:right;
+		margin-right: 2%;
+		font-style: italic;
+		border: none;
+		border-right: 1px solid;
+		border-left: 1px solid;
+		padding: 9px;
+	    font: bold 15px/100% Verdana, Tahoma, sans-serif; 
+	    color: white;
+	    width: 18%; 
+	    background: #ff8900;
+	    font-family: Georgia, Serif;
+	}
+	
+	button[type=submit]:hover{
+		border-color: #884900;
+		color: #884900;
+		-webkit-box-shadow: #ff9c00 0px 0px 40px;
+		-moz-box-shadow: #ff9c00 0px 0px 40px;
+		box-shadow: #ff9c00 0px 0px 40px;
+	}
+
+input:hover, input:focus{ 
+	color: #884900;
+    -webkit-box-shadow: #ff9c00 0px 0px 40px;
+	-moz-box-shadow: #ff9c00 0px 0px 40px;
+	box-shadow: #ff9c00 0px 0px 40px;
+    outline:none;
+} 
+
+input::-moz-focus-inner { 
+  border: 0;
+  padding: 0;
+}
+
+#subtotal{	
+	margin-top: 1%;
+	float:left;
+	width: 100%;
+	background-color: #ff8900;
+	padding: 1% 0% 1% 0%;
+}
+
+#subtotal label{
+	float: left;
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	margin-left: 5%;
+}
+
+#subtotal input[type=submit]{
+	float: right;
+	font-size: 25px;
+	background-color: #d37100;
+}

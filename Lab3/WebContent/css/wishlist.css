@@ -1,0 +1,151 @@
+@CHARSET "ISO-8859-1";
+body{
+	margin: 0;
+	font-family: Georgia, Serif;
+}
+
+
+th{
+	vertical-align: top;
+	text-align: left;
+	font-size: 25px;
+}
+
+td{
+	vertical-align: top;
+	text-align: left;
+}
+
+td:nth-child(1) {
+	width: 150px;
+}
+
+th:nth-child(1) {
+	width: 150px;
+}
+
+table:nth-child(even):tr{
+	width: 350px;
+}
+
+h1{
+	clear:both;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+div:nth-child(even)#alt_color {
+	width: 100%;
+	float:left;
+	background-color: #5cd35c;
+}
+
+div:nth-child(odd)#alt_color{
+	width: 100%;
+	float:left;
+	background-color: #bff0bf;
+}
+
+#search_result{
+	padding: 1% 0% 1% 0%;
+	width: 90%;
+	margin-left: 5%;
+	
+}
+
+	#photo{
+		width: 20%;
+		float:left;
+		max-height: 96%;
+	}
+	
+		img{
+			width: 60%;
+			margin-bottom: 2%;
+		}
+	
+	#result{
+		width: 80%;
+		float:right;
+	}
+	
+	input[type=submit]{
+		color:#ff9100;
+		text-decoration: none;
+	}
+	input[type=submit]#cart {
+		background-color: #ff8100;
+		float:right;
+		margin-top: 2%;
+		margin-right: 2%;
+		font-style: italic;
+		border: none;
+		padding: 9px;
+	    font: bold 20px/100% Verdana, Tahoma, sans-serif; 
+	    color: #fff;
+	    width: 30%; 
+	    font-family: Georgia, Serif;
+	}
+	
+	input[type=text]{
+	    float:right;
+		margin-top: 2%;
+		margin-right: 2%;
+		font-style: italic;
+		border: none;
+		padding: 9px;
+	    font: bold 20px/100% Verdana, Tahoma, sans-serif; 
+	    width: 20%; 
+	    font-family: Georgia, Serif;
+	    text-align:center;	
+	}
+
+input[type=submit]#cart:hover, input[type=submit]#cart:focus{ 
+    -webkit-box-shadow: #ff9c00 0px 0px 40px;
+	-moz-box-shadow: #ff9c00 0px 0px 40px;
+	box-shadow: #ff9c00 0px 0px 40px;
+    outline:none;
+} 
+
+input::-moz-focus-inner { 
+  border: 0;
+  padding: 0;
+}
+
+a:link {
+	color:#ae7000;
+	text-decoration: none;
+}
+a:visited {
+	color:#ae7000;
+}
+a:hover {
+	color:#ffa400;
+    outline:none;
+}
+
+#view_reviews{
+	background: none;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+	text-align: left;
+	font: bold 25px Georgia, Serif;
+}
+
+[type=submit]#view_reviews:hover{
+	color: #fff;
+}
+
+#msg{
+	margin: 5% 0% 2% 0%;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Georgia, Serif;
+	color: #ff7b00;
+	
+}
+	

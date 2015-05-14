@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+}
+
+#open{
+	float:left;
+	margin:2%;
+}
+
+#div_main {
+	clear:both;
+	width:90%;
+	margin-left:5%;
+	margin-top: 5%;
+	background-color: #7cfca4;
+	padding-top: 2%;
+	padding-bottom: 32%;
+}
+
+#div_main h1 {
+	text-align: center;
+}
+#shippingform{
+	float:left;
+	width: 49%;
+	font-weight: bold;
+}
+
+#ordersummary input{
+	margin-left: 25%;
+	margin-bottom: 5%;
+	width: 40%;
+	height: 40%;
+}
+
+#title{
+	color:  #000000;
+	font-family: Georgia, Serif;
+	text-align:center;
+	font-size: 25px;
+}
+
+#ordersummary{
+	padding-left: 3%;
+	margin-right: 3%;
+	color:  #000000;
+	float:right;
+	width: 43%;
+	font-family: Georgia, Serif;
+	background-color: #d8ffb9;
+	font-weight: bold;
+}
+
+input{
+	padding: 0px;
+	font-size: 15px;
+	font-weight: bold;
+	height: 40px;
+	margin: 0px;
+	color: #000000;
+	margin: 2% 5% 0% 5%;
+}
+
+input[type=text]{
+	background-color: #fafafa;
+	color: black;
+	border-width:0px;
+	width: 90%;
+	text-align: center;
+}
+
+
+input[type=text]:hover{
+	background-color: #f6f6f6;
+}
+
+#left{
+	float:left;
+}
+
+#right{
+	float:right;
+	margin-right: 15%;
+	font-style: italic;
+}
+select{
+	float: right;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px;
+	height: 40px;
+	border-width: 0px;
+    box-shadow: none;
+    border-radius: 0px;
+    width: 20%;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    text-align: center;
+    background-color: #bfbfbf;
+    color: #000000;
+    margin: 2% 5% 0% 0%;
+}
+
+#widthOf{
+	width:65%; 
+}

@@ -1,0 +1,34 @@
+body{
+	margin: 0;
+}
+
+#navStl{
+	float:right;
+	width: 100%;
+	border-width:0px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #66b266;
+	list-style: none;
+	font-size: 20px;
+}
+
+#navStl li{
+	display: block;
+}
+
+#navStl li a{
+	text-decoration: none;
+	border-left:2px solid #FFFFFF;
+	text-align: center;
+	padding: 10px 20px;
+	width: 12%;
+	background: #004c00;
+	color: #FFFFFF;
+	float:right;
+	margin: 0;
+}
+#navStl li a:hover{
+	background: #FFFFFF;
+	color: #324133;
+}

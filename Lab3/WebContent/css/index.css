@@ -1,0 +1,133 @@
+body{
+	margin:0px;
+	background-color: #ffffff;
+}
+
+#open{
+	float:left;
+	margin:2%;
+}
+
+form {
+	clear:both;
+	margin-top: 5%;
+}
+
+h1{
+	font-family:Times New Roman;
+}
+
+a {
+	color: #009900;
+	text-decoration: none;
+}
+
+/* Search Box Container */
+
+div#searchbox{
+	float: left;
+	margin: 10%;
+	margin-top: 5%;
+	width: 80%;
+	border-style: solid;
+	border-width: 2px;
+}
+
+
+select{
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px;
+	padding-left: 10px;
+	height: 50px;
+	border-width: 0px;
+    box-shadow: none;
+    border-radius: 0px;
+    width: 12.5%;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    text-align: center;
+}
+
+select:hover{
+	background: #f6f6f6;
+}
+
+input{
+	float: left;
+	padding: 0px;
+	font-size: 15px;
+	font-weight: bold;
+	height: 50px;
+	margin: 0px;
+	color: #f2f7f2;
+}
+
+input[type=submit]#search1{
+	width: 5%;
+	font-size: 15px;
+	
+}
+
+input[type=submit]#search2{
+	width: 12.5%;
+}
+
+input[type=submit]{
+	border-width: 0px;
+	background: #328332;
+}
+
+input[type=text]{
+	color: black;
+	margin: 0px;
+	border-width:0px;
+	width: 70%;
+	text-align: center;
+	font-size: 15px;
+	font-family: Georgia, Serif;
+}
+
+input[type=text]:hover{
+	background-color: #f6f6f6;
+}
+
+input[type=submit]:hover{
+	background: #009700;
+}
+
+/* Popular Books Div */
+
+div#popBooks img{
+	width: 15%;
+	margin-left: 4%;
+	vertical-align: middle;	
+}
+
+#popBooks{
+	float:left;
+	width: 100%;
+	border-width:0px;
+	margin: 0px;
+	padding: 0px;
+	padding-top:1%;
+	padding-bottom:1%;
+	margin-bottom: 10%;
+	background-color: #66b266;
+	list-style: none;
+	font-size: 20px;
+}
+
+#msg{
+	margin-top: 10%;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Georgia, Serif;
+	color: #ff7b00;
+	
+}
